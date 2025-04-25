@@ -2,6 +2,7 @@
 A tool that adjusts the output volume of each COM channel of vPilot from the Planes radio voice control individually.
 
 **Note: Certain planes do not send the updates when changing the com volumes. You can also use the Scrollwheel ontop of the bar in the tool to directly adjust it.**
+
 ![Screenshot of the tool](/vvolume.png)
 
 ## Download and Usage
