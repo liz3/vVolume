@@ -136,4 +136,26 @@ public partial class MainWindow : Window
             return false;
         }
     }
+
+    private void barOneMouseWheel(object sender, MouseWheelEventArgs e)
+    {
+        var newValue = (com1Bar.Value / 100) + (0.05 * (e.Delta / 120));
+        if (newValue > 100)
+            newValue = 100;
+        else if (newValue < 0)
+            newValue = 0;
+        if (setVolume((float)newValue, 1))
+            com1Bar.Value = newValue * 100;
+    }
+
+    private void barTwoMouseWheel(object sender, MouseWheelEventArgs e)
+    {
+        var newValue = (com2Bar.Value / 100) + (0.05 * (e.Delta / 120));
+        if (newValue > 100)
+            newValue = 100;
+        else if (newValue < 0)
+            newValue = 0;
+        if (setVolume((float)newValue, 2))
+            com2Bar.Value = newValue * 100;
+    }
 }

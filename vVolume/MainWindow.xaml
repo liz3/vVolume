@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="vVolume" Height="117" Width="210" WindowStyle="ToolWindow" ResizeMode="NoResize">
     <Grid Margin="0,0,-18,0">
-        <ProgressBar x:Name="com1Bar" HorizontalAlignment="Left" Height="10" Margin="10,10,0,0" VerticalAlignment="Top" Width="110"/>
-        <ProgressBar x:Name="com2Bar" HorizontalAlignment="Left" Height="10" Margin="10,36,0,0" VerticalAlignment="Top" Width="110"/>
+        <ProgressBar x:Name="com1Bar" HorizontalAlignment="Left" Height="10" Margin="10,10,0,0" VerticalAlignment="Top" Width="110" MouseWheel="barOneMouseWheel"/>
+        <ProgressBar x:Name="com2Bar" HorizontalAlignment="Left" Height="10" Margin="10,36,0,0" VerticalAlignment="Top" Width="110" MouseWheel="barTwoMouseWheel"/>
         <Label x:Name="com1Label" Content="-" HorizontalAlignment="Left" Margin="125,2,0,0" VerticalAlignment="Top" Height="22" Width="59" FontFamily="Calibri"/>
         <Label x:Name="com2Label" Content="-" HorizontalAlignment="Left" Margin="125,28,0,0" VerticalAlignment="Top" Height="22" Width="59" FontFamily="Calibri"/>
         <Label x:Name="statusLabel" Content="" HorizontalAlignment="Left" Margin="4,51,0,0" VerticalAlignment="Top" Height="24" Width="110" FontFamily="Calibri"/>
