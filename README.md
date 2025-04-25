@@ -1,6 +1,9 @@
 # vVolume
 A tool that adjusts the output volume of each COM channel of vPilot from the Planes radio voice control individually.
 
+**Note: Certain planes do not send the updates when changing the com volumes. You can also use the Scrollwheel ontop of the bar in the tool to directly adjust it.**
+![Screenshot of the tool](/vvolume.png)
+
 ## Download and Usage
 1. Download the zip from the [Releases](https://github.com/liz3/vVolume/releases/).
 2. Run vVolume **as administrator**, it needs admin rights in order to be able to set the volume.
